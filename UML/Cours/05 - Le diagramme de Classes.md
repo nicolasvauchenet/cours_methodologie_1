@@ -1,5 +1,7 @@
 # 05. Le diagramme de Classes
 
+![05-example.png](../images/05-example.png)
+
 ## Présentation
 
 Le diagramme de classes est un élément central de la modélisation UML, fournissant une vue structurée du système. Il

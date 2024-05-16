@@ -1,5 +1,7 @@
 # 04. Le diagramme de Séquence
 
+![04-example.png](../images/04-example.png)
+
 ## Présentation
 
 Le diagramme de séquence en UML est utilisé pour modéliser l'interaction entre les différents objets ou composants d'un
