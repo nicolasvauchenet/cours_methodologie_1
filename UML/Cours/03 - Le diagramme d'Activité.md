@@ -68,12 +68,14 @@ conditions.
 ### Mise en parallèle :
 
 Des barres épaisses horizontales représentent des fourches (début de parallélisme) et des jointures (fin du
-parallélisme) permettant d'exécuter plusieurs tâches simultanément.
+parallélisme) permettant d'exécuter plusieurs tâches simultanément.  
+![03-example2.png](../images/03-example2.png)
 
 ### Swimlanes :
 
 Ces couloirs regroupent les activités par rôles ou responsabilités, aidant à visualiser les tâches spécifiques à chaque
-acteur ou sous-système impliqué dans le processus.
+acteur ou sous-système impliqué dans le processus.  
+![03-example3.png](../images/03-example3.png)
 
 ## Exercices pratiques
 
