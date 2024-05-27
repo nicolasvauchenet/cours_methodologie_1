@@ -47,11 +47,6 @@ du processus.
 Une flèche pointant d'une activité à une autre montre le flux logique du processus, guidant l'ordre d'exécution des
 tâches.
 
-### Flèche de flux d'objet :
-
-Les flèches de flux d'objet sont des lignes pointillées qui montrent comment les données ou les objets circulent d'une
-activité à une autre.
-
 ### Point de départ :
 
 Représenté par un cercle noir plein, il montre le point où commence le flux de travail.
