@@ -165,6 +165,63 @@ L'encapsulation et le polymorphisme sont des piliers de la POO qui permettent de
 modulaires et évolutifs. Ces mécanismes aident à gérer la complexité et à augmenter la réutilisabilité du code, tout en
 améliorant la maintenance et la flexibilité des logiciels.
 
+### Les principes S.O.L.I.D.
+
+Les principes SOLID sont un ensemble de cinq principes de conception orientée objet qui visent à rendre le code plus
+compréhensible, flexible et maintenable. Voici une explication détaillée de chaque principe :
+
+#### Single Responsibility Principle (SRP)
+
+- **Principe :** Une classe ne devrait avoir qu'une seule responsabilité, c'est-à-dire une seule raison de changer.
+- **Explication :** Cela signifie que chaque classe doit se concentrer sur une seule tâche ou fonctionnalité. En suivant
+  ce principe, le code devient plus facile à comprendre, à tester et à maintenir, car les changements dans une
+  fonctionnalité n'affectent pas les autres.
+- **Exemple :** Si une classe Report gère à la fois la génération de rapports et l'envoi de courriels, elle ne respecte
+  pas le SRP. Il serait préférable de séparer ces responsabilités en deux classes distinctes, ReportGenerator et
+  EmailSender.
+
+#### Open/Closed Principle (OCP)
+
+- **Principe :** Les entités du logiciel (classes, modules, fonctions, etc.) devraient être ouvertes à l'extension mais
+  fermées à la modification.
+- **Explication :** Cela signifie que le comportement d'une classe peut être étendu sans modifier son code source. Ce
+  principe favorise l'utilisation de l'héritage ou de l'implémentation des interfaces pour ajouter de nouvelles
+  fonctionnalités.
+- **Exemple :** Si une classe Shape a des sous-classes Circle et Square, vous pouvez ajouter une nouvelle sous-classe
+  Triangle sans modifier le code existant de Shape.
+
+#### Liskov Substitution Principle (LSP)
+
+- **Principe :** Les objets d'une classe dérivée doivent pouvoir être remplacés par des objets de la classe de base sans
+  affecter la fonctionnalité du programme.
+- **Explication :** Cela signifie que les sous-classes doivent être substituables à leurs classes de base sans que le
+  code client ne doive connaître la différence. Pour respecter ce principe, les sous-classes ne doivent pas altérer le
+  comportement attendu des méthodes de la classe de base.
+- **Exemple :** Si une classe Bird a une méthode fly(), toutes les sous-classes comme Sparrow ou Eagle doivent pouvoir
+  être utilisées sans problème à la place de Bird. Cependant, une sous-classe comme Penguin qui ne peut pas voler
+  violerait ce principe.
+
+#### Interface Segregation Principle (ISP)
+
+- **Principe :** Les clients ne devraient pas être forcés à dépendre d'interfaces qu'ils n'utilisent pas.
+- **Explication :** Cela signifie qu'il est préférable de créer plusieurs interfaces spécifiques à des clients plutôt
+  qu'une seule interface générale. Ainsi, les classes n'implémentent que les méthodes dont elles ont besoin.
+- **Exemple :** Si une interface Worker a des méthodes work() et eat(), une classe Robot qui implémente Worker ne
+  devrait pas être obligée d'implémenter eat(). Il serait mieux de diviser l'interface en Workable avec la méthode
+  work() et Eatable avec la méthode eat().
+
+#### Dependency Inversion Principle (DIP)
+
+- **Principe :** Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau. Les deux doivent dépendre
+  des abstractions. Les abstractions ne doivent pas dépendre des détails. Les détails doivent dépendre des abstractions.
+- **Explication :** Cela signifie que les classes de haut niveau (qui contiennent la logique d'application) ne doivent
+  pas dépendre des classes de bas niveau (qui contiennent les détails de l'implémentation). Les deux devraient dépendre
+  d'abstractions comme des interfaces ou des classes abstraites. Ce principe favorise l'injection de dépendances pour
+  inverser le contrôle de l'instanciation des objets.
+- **Exemple :** Si une classe Service dépend d'une classe Repository, il est préférable de créer une interface
+  IRepository que Service utilisera. Ainsi, Service dépend de l'abstraction IRepository, et vous pouvez facilement
+  changer l'implémentation concrète de Repository sans modifier Service.
+
 ## Exercices pratiques
 
 ### [Système de réservation de bibliothèque en ligne](..%2FExercices%2F%C3%89nonc%C3%A9%2F05a%20-%20Diagramme%20de%20Classes%20-%20Exercice.md)
