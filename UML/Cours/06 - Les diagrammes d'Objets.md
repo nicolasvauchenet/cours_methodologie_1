@@ -121,3 +121,84 @@ signifie que le message n'est envoyé que si la condition est remplie.
 
 Des messages peuvent également être envoyés de manière répétitive, indiqués par un astérisque (*) et une condition de
 boucle entre crochets. Par exemple, [*] message1 signifie que message1 est envoyé en boucle.
+
+## 06c. Le diagramme État / Transition
+
+![06c-example.png](../images/06c-example.png)
+
+### Présentation
+
+Le diagramme État / Transition (ou diagramme d'états) est un outil de modélisation utilisé en ingénierie logicielle pour
+représenter les différents états qu'un objet ou un système peut traverser au cours de son cycle de vie, ainsi que les
+transitions entre ces états. Ce type de diagramme est particulièrement utile pour les systèmes réactifs, où les objets
+répondent à des événements en passant d'un état à un autre.
+
+### Utilité dans le développement logiciel
+
+- Décrire le comportement dynamique d'un objet ou d'un système.
+- Illustrer les états possibles d'un objet et les conditions de transition entre ces états.
+- Faciliter la compréhension des flux de contrôle et des réactions aux événements.
+- Modélisation des machines à états finis.
+- Développement de systèmes embarqués et réactifs.
+- Conception d'interfaces utilisateur.
+- Définition des comportements dans les protocoles de communication.
+
+### Symboles et Éléments
+
+#### État :
+
+- **Représentation :** Un état est représenté par un rectangle aux coins arrondis.
+- **Description :** Chaque état correspond à une situation ou condition particulière dans laquelle l'objet peut se
+  trouver.
+- **Notation :**
+    - Nom de l'état inscrit à l'intérieur du rectangle.
+    - Optionnellement, les actions ou activités associées à cet état peuvent être mentionnées.
+
+#### État Initial :
+
+- **Représentation :** Un cercle plein noir.
+- **Description :** Indique le point de départ ou l'état initial du système ou de l'objet avant que tout événement ne se
+  produise.
+
+#### État Final :
+
+- **Représentation :** Un cercle noir entouré d'un cercle blanc.
+- **Description :** Indique l'état final ou terminal, signifiant que l'objet ou le système a atteint une condition de
+  fin.
+
+#### Transition :
+
+- **Représentation :** Une flèche allant d'un état à un autre.
+- **Description :** Représente le passage d'un état à un autre en réponse à un événement ou à une condition
+  particulière.
+- **Notation :**
+    - Étiquette sur la flèche indiquant l'événement déclencheur, la condition de garde (facultatif), et/ou l'action
+      associée.
+
+#### État Composite :
+
+- **Représentation :** Un grand rectangle aux coins arrondis contenant d'autres états et transitions.
+- **Description :** Utilisé pour représenter des états qui contiennent d'autres sous-états, permettant de modéliser des
+  comportements plus complexes et hiérarchisés.
+
+#### Junction (Jonction) :
+
+- **Représentation :** Un petit cercle noir.
+- **Description :** Utilisé pour séparer une transition en plusieurs segments ou pour joindre plusieurs transitions en
+  un seul point.
+
+#### Choice (Choix) :
+
+- **Représentation :** Un losange.
+- **Description :** Utilisé pour modéliser des décisions où une transition peut prendre plusieurs chemins en fonction de
+  certaines conditions.
+
+#### Fork / Join (Fourche / Jonction) :
+
+- **Fork :**
+    - **Représentation :** Une ligne noire épaisse partant d'un seul état et se divisant en plusieurs transitions
+      parallèles.
+    - **Description :** Utilisée pour indiquer la décomposition d'un flux en plusieurs sous-flux parallèles.
+- **Join :**
+    - **Représentation :** Une ligne noire épaisse fusionnant plusieurs transitions parallèles en un seul état.
+    - **Description :** Utilisée pour indiquer la convergence de plusieurs sous-flux parallèles en un seul flux.
