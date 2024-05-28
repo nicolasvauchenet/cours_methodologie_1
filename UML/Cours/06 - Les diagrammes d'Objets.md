@@ -126,6 +126,8 @@ boucle entre crochets. Par exemple, [*] message1 signifie que message1 est envoy
 
 ![06c-example.png](../images/06c-example.png)
 
+![06c-example2.png](../images/06c-example2.png)
+
 ### Présentation
 
 Le diagramme État / Transition (ou diagramme d'états) est un outil de modélisation utilisé en ingénierie logicielle pour
@@ -144,6 +146,8 @@ répondent à des événements en passant d'un état à un autre.
 - Définition des comportements dans les protocoles de communication.
 
 ### Symboles et Éléments
+
+![06c-symbols.png](../images/06c-symbols.png)
 
 #### État :
 
