@@ -34,7 +34,9 @@ en alignant les attentes et les objectifs dès la phase de conception.
 
 ## Symboles et Éléments
 
-![05-symbols.png](../images/05-symbols.png)
+![05-symbols-class.png](../images/05-symbols-class.png)
+
+![05-symbols-relations.png](../images/05-symbols-relations.png)
 
 ### Classe :
 
