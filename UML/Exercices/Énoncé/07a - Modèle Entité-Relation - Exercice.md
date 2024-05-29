@@ -1,4 +1,4 @@
-# Modèle Entité-Association - Exercice : Système de Gestion Universitaire
+# Modèle Entité-Relation - Exercice : Système de Gestion Universitaire
 
 ## Contexte :
 
@@ -8,7 +8,7 @@ l'organisation et à la gestion des étudiants, des enseignants, des départemen
 
 ## Objectif :
 
-Votre mission est de concevoir un modèle Entité/Association qui décrira de manière exhaustive la structure de données
+Votre mission est de concevoir un modèle Entité/Relation qui décrira de manière exhaustive la structure de données
 nécessaire pour soutenir les fonctionnalités requises par le système de gestion universitaire. Ce modèle doit inclure
 les entités pertinentes, leurs attributs, les relations entre ces entités, ainsi que les contraintes d'intégrité et les
 cardinalités.

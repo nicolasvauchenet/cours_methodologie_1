@@ -104,23 +104,40 @@ entre eux pour montrer les relations imbriquées ou les références.
 
 ## Présentation
 
-Le modèle Entité-Association (E/A) est utilisé pour conceptualiser et modéliser des bases de données à un niveau plus
-abstrait. Il décrit les entités (objets) du domaine d'application et les associations (relations) entre ces entités.
-
-## Utilité dans le Développement Logiciel
-
-#### Conception de Base de Données :
-
-Il aide à structurer et à concevoir des bases de données en permettant une modélisation claire des relations entre les
-différentes entités.
+- **Origine :** Le modèle EA, souvent utilisé dans la méthode MERISE, a été développé en France dans les années 1970.
+  MERISE est une méthode d'analyse et de conception des systèmes d'information qui utilise le modèle EA pour représenter
+  les données.
+- **Objectif :** Le modèle EA vise à fournir une représentation claire et simple des données et des relations dans un
+  système d'information, en se concentrant sur les entités et leurs associations.
 
 ### Symboles
 
 Les entités sont représentées par des rectangles, et les associations par des lignes les reliant, souvent avec des
 labels pour décrire la nature de la relation. Les attributs peuvent être listés dans ou autour des rectangles d'entité.
+Ce modèle utilise des bulles pour représenter les associations entre entités. Les cardinalités sont souvent notées sous
+la forme "1,n".
+
+## 07f. Modèle Entité / Relation
+
+![07f-example2.png](../images/07f-example.png)
+
+## Présentation
+
+- **Origine :** Le modèle ER a été introduit par Peter Chen en 1976 dans son article "The Entity-Relationship Model -
+  Toward a Unified View of Data". Ce modèle est devenu largement adopté dans le monde entier pour la modélisation des
+  bases de données relationnelles.
+- **Objectif :** Le modèle ER vise à fournir une représentation graphique plus structurée et formelle des entités, des
+  attributs et des relations dans une base de données.
+
+### Symboles
+
+![07f-symbols.png](../images/07f-symbols.png)
+
+Le modèle ER utilise des traits verticaux, des pattes d'oie, et des ronds pour indiquer les cardinalités des relations
+entre les entités.
 
 ## Exercices pratiques
 
-### [Système de Gestion Universitaire](..%2FExercices%2F%C3%89nonc%C3%A9%2F07a%20-%20Mod%C3%A8le%20Entit%C3%A9-Association%20-%20Exercice.md)
+### [Système de Gestion Universitaire](..%2FExercices%2F%C3%89nonc%C3%A9%2F07a%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice.md)
 
-### [Plateforme de Gestion d'Événements](..%2FExercices%2F%C3%89nonc%C3%A9%2F07b%20-%20Mod%C3%A8le%20Entit%C3%A9-Association%20-%20Exercice.md)
+### [Plateforme de Gestion d'Événements](..%2FExercices%2F%C3%89nonc%C3%A9%2F07b%20-%20Mod%C3%A8le%20Entit%C3%A9-Relation%20-%20Exercice.md)

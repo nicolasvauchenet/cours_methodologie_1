@@ -126,6 +126,12 @@ Ce modèle stocke les informations sous forme de documents (souvent formatés en
 
 Ce modèle permet de représenter la structure d'une base de données relationnelle.
 
+### 07f. Le modèle Entité / Relation
+
+#### Présentation et symboles
+
+Ce modèle permet également de représenter la structure d'une base de données relationnelle.
+
 #### Exercices
 
 Exercices pour modéliser une base de données SQL.

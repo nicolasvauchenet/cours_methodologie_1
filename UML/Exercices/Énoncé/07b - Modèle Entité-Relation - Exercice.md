@@ -1,4 +1,4 @@
-# Modèle Entité-Association - Exercice : Plateforme de Gestion d'Événements
+# Modèle Entité-Relation - Exercice : Plateforme de Gestion d'Événements
 
 ## Contexte :
 
@@ -8,7 +8,7 @@ d'événements, tels que les conférences, les séminaires, les retraites d'entr
 
 ## Objectif :
 
-Votre mission est de concevoir un modèle Entité/Association qui décrit la structure de données nécessaire pour supporter
+Votre mission est de concevoir un modèle Entité/Relation qui décrit la structure de données nécessaire pour supporter
 les fonctionnalités de la plateforme. Ce modèle devra inclure toutes les entités nécessaires, leurs attributs, les
 associations entre elles, et les contraintes d'intégrité correspondantes. Le modèle doit capturer les relations
 complexes entre les différents aspects de la gestion d'événements et servir de fondement pour la création de la base de
