@@ -25,34 +25,34 @@ du déroulement de l'événement.
 
 1. Introduction et présentation du contexte (30 minutes)
 
-- Présentation du festival de musique et de l'infrastructure actuelle.
-- Discussion des exigences fonctionnelles du système informatique à concevoir.
+    - Présentation du festival de musique et de l'infrastructure actuelle.
+    - Discussion des exigences fonctionnelles du système informatique à concevoir.
 
 2. Exigences fonctionnelles (1 heure)
 
-- Rédaction d'un document d'analyse des exigences fonctionnelles, regroupées en domaines, fonctionnalités clés et
-  fonctionnalités métier.
+    - Rédaction d'un document d'analyse des exigences fonctionnelles, regroupées en domaines, fonctionnalités clés et
+      fonctionnalités métier.
 
 3. Modélisation UML (4 heures)
 
-- Création d'un diagramme de cas d'utilisation pour identifier les différents acteurs et leurs interactions avec le
-  système.
-- Développement d'un diagramme d'activité pour les processus clés choisis, tels que la vente de billets ou
-  l'organisation des performances.
-- Construction d'un diagramme de séquence pour détailler les opérations pour des processus critiques comme l'accueil des
-  artistes ou la gestion des urgences.
-- Élaboration d'un diagramme de classes pour définir la structure du système et les relations entre les différentes
-  classes.
-- Conception d'un modèle entité-association pour représenter la structure de données concernant les artistes, les
-  spectacles, les billets, et les services.
+    - Création d'un diagramme de cas d'utilisation pour identifier les différents acteurs et leurs interactions avec le
+      système.
+    - Développement d'un diagramme d'activité pour les processus clés choisis, tels que la vente de billets ou
+      l'organisation des performances.
+    - Construction d'un diagramme de séquence pour détailler les opérations pour des processus critiques comme l'accueil
+      des artistes ou la gestion des urgences.
+    - Élaboration d'un diagramme de classes pour définir la structure du système et les relations entre les différentes
+      classes.
+    - Conception d'un modèle entité-association pour représenter la structure de données concernant les artistes, les
+      spectacles, les billets, et les services.
 
 4. Rapport de présentation des livrables (1 heure)
 
-- Rédaction d'un rapport de synthèse comprenant les diagrammes produits et une explication des choix de conception.
+    - Rédaction d'un rapport de synthèse comprenant les diagrammes produits et une explication des choix de conception.
 
 5. Présentation et restitution (20 minutes par groupe)
 
-- Présentation orale du rapport et démonstration des fonctionnalités modélisées du système informatique.
+    - Présentation orale du rapport et démonstration des fonctionnalités modélisées du système informatique.
 
 ## Critères d'évaluation :
 
